@@ -1,8 +1,12 @@
 package com.main;
 
 /* Assignment Description
-Write a program that reads three real numbers and finds out whether they can be the sides of the triangle and if they do, prints what type of triangle it is. Even though all equilateral triangles are isosceles, your program should classify an equilateral triangle to be an equilateral only. Similarly isosceles right-angled triangles should be classified as right-angled and not isosceles. A valid triangle which does not belong to any of the special types belongs to the notspecial category.
-The three sides will be given as real numbers separated by blanks. The program should print the type of the triangle in words using lower case letters followed by eoln without any blanks
+Write a program that reads three real numbers and finds out whether they can be the sides of the triangle and if they do,
+prints what type of triangle it is. Even though all equilateral triangles are isosceles, your program should classify an equilateral triangle
+to be an equilateral only. Similarly isosceles right-angled triangles should be classified as right-angled and not isosceles.
+A valid triangle which does not belong to any of the special types belongs to the notspecial category.
+The three sides will be given as real numbers separated by blanks. The program should print the type of the triangle in words
+using lower case letters followed by eoln without any blanks
 
 Possible answers are:
  invalid
