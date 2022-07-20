@@ -43,14 +43,22 @@ public class FormatRealNumber {
     }
 
     private void formatIntNum(){
-        while(formattedInt % 10 == 0){
-            formattedInt = formattedInt / 10;
+        if(formattedInt != 0) {
+            while (formattedInt % 10 == 0) {
+                formattedInt = formattedInt / 10;
+            }
+        }else{
+            formattedInt = -1;
         }
     }
 
     public String getFormattedString() {
         formatFractNum();
         formatIntNum();
-        return formattedFract + "." + formattedInt;
+        if(formattedInt == -1){
+            return formattedFract;
+        }else {
+            return formattedFract + "." + formattedInt;
+        }
     }
 }
